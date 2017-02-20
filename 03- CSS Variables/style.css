@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+img {
+  padding: var(--spacing);
+  background: var(--base);
+}
+.hl {
+  color: (--base);
+}
+a {
+  color: var(--base);
+  text-decoration: none;
+}
+input {
+  width: 100px;
+}
